@@ -1,0 +1,36 @@
+.img-container {
+    margin-left: 25px;
+    background-color: #0795d0;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.count-container {
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: #AAF8EB;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.logo {
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.timer {
+    text-align: center;
+    height: auto;
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.timer span {
+    font-size: 2em;
+    margin: 0 3px 0 15px;
+}

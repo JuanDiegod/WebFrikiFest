@@ -3,5 +3,5 @@ body {
     background: linear-gradient(to bottom, #012e57 70%, #0795d0) center/cover no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
+    overflow-x: hidden;
 }

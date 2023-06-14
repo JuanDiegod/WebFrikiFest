@@ -31,15 +31,81 @@
     padding-right: 20px;
     padding-top: 30px;
 }
+
 .timer span {
     font-size: 2em;
     margin: 0 3px 0 15px;
 }
 
+.patro {
+    background-color: #0795d0;
+    font-size: 1.7rem;
+    border-radius: 1.7rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top: -318px;
+    margin-left: 42px;
+    margin-right: 372px;
+    
+
+}
+
+.patro2{
+    background-color: #0795d0;
+    border-radius: 1.7rem;
+    font-size: 1.6rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top: -318px;
+    margin-right: 191px;
+    margin-left: -331px;
+}
+
+.patro3{
+    background-color: #0795d0;
+    font-size: 1.7rem;
+    border-radius: 1.7rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top: -318px;
+    margin-right: 157px;
+    margin-left: -163px;   
+}
+
+.patrocinadores{
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: -215px;
+    margin-right: -600px;
+}
+
+.patrocinadores span{
+    font-size: 3.0rem;
+}
+
+.box {
+    background-color: white;
+    border-radius: 54px;
+    padding: 110px 0;
+    margin-left: -753px;
+    margin-right: -310px;
+    margin-top: -64px;
+}
+
+
+
+
+
+
 @media (max-width: 1800px) {
     .main-logo {
         width: 200px;
     }
+
     .logo {
         width: auto;
         height: 120px;
@@ -56,9 +122,11 @@
     .main-logo {
         width: 150px;
     }
+
     .logo {
         height: 100px;
     }
+
     .timer span {
         font-size: 1.5em;
     }
@@ -68,6 +136,7 @@
     .logo {
         height: 85px;
     }
+
     .timer {
         font-size: 0.58em;
     }
@@ -77,6 +146,7 @@
     .main-logo {
         width: 130px;
     }
+
     .logo {
         height: 70px;
     }
@@ -86,6 +156,7 @@
     .main-logo {
         width: 370px;
     }
+
     .img-container {
         border-top-left-radius: 3rem;
         border-top-right-radius: 3rem;

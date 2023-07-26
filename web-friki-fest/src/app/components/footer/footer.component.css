@@ -1,16 +1,32 @@
+
+
 .text-redes {
     font-size: 20px;
-    text-align: center;
+    /*text-align: center;*/
     position: absolute;
     bottom: 0;
-    margin-right: 15PX;
+    margin-right: 25PX;
+    margin-bottom: 50px;
 }
 
 .icon-redes {
     width: 50px;
+    margin-top: 15px;
+}
+
+.icon{
+    margin-left: 50px;
+    width: 100%;
 }
 
 .daru {
     width: 400px;
     margin-top: -400px;
+}
+
+
+
+
+p{
+    color: white;
 }

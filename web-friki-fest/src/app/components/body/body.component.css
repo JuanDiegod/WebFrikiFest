@@ -18,7 +18,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 25px;
+    font-size: 120%;
     text-align: center;
     width: 100%;    
 }
@@ -84,6 +84,19 @@ p{
     animation-name: modal-animation;
     animation-duration: 0.5s;
 }
+
+.card-row {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icon-redes {
+    width: 100%;
+}
+
+.icon-preventa {
+    width: 100%;
+}
   
 @-webkit-keyframes modal-animation {
     from {
@@ -117,4 +130,120 @@ p{
 .buttonModal {
     background: none;
     border: none;
+}
+
+.store-block {
+    width: 220px;
+}
+
+.preventa-block {
+    width: 400px;
+}
+
+.main-title {
+    font-size: 400%;
+}
+
+@media (max-width: 1700px) {
+    .preventa-block {
+        width: 340px;
+    }
+}
+
+@media (max-width: 1510px) {
+    .store-block {
+        width: 180px;
+    }
+
+    .main-title {
+        font-size: 350%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .preventa-block {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .image-text {
+        font-size: 100%;
+    }
+
+    .store-block {
+        width: 160px;
+    }
+
+    .main-title {
+        font-size: 280%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .preventa-block {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1155px) {
+    .image-text {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .store-block {
+        width: 130px;
+    }
+
+    .main-title {
+        font-size: 180%;
+    }
+}
+
+@media (max-width: 991px) {
+    .image-text {
+        font-size: 70%;
+    }
+
+    .card-block, .card-block2, .card-block3, .card-block4, .card-block5, .card-block6 {
+        width: 150px;
+    }
+
+    .card-row {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 900px) {
+    .store-block {
+        width: 110px;
+    }
+    
+    .icon-redes {
+        width: 110%;
+    }
+}
+
+@media (max-width: 840px) {
+    .preventa-block {
+        width: 170px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 140%;
+    }
+}
+
+@media (max-width: 384px) {
+    .card-block, .card-block2, .card-block3, .card-block4, .card-block5, .card-block6 {
+        width: 130px;
+    }
+
+    .image-text {
+        font-size: 60%;
+    }
 }

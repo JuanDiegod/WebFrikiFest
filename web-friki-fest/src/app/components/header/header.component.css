@@ -69,7 +69,7 @@
 .box {
     background-color: white;
     border-radius: 54px;
-    height: 220px;
+    height: 250px;
     width: 100%!important;
 }
 
@@ -306,6 +306,11 @@
 
     .button-block2 {
         margin-right: -33px!important;
+    }
+
+    .box {
+        border-radius: 30px;
+        height: 120px;
     }
 }
 

@@ -11,8 +11,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
   private subscription: Subscription = new Subscription();
   
   public dateNow = new Date();
-  public dDay = new Date('Aug 12 2023 10:00:00');
-  // public dDay = new Date('Sep 29 2023 15:00:00');
+  // public dDay = new Date('Aug 12 2023 10:00:00');
+  public dDay = new Date('Sep 29 2023 15:00:00');
   milliSecondsInASecond = 1000;
   hoursInADay = 24;
   minutesInAnHour = 60;
